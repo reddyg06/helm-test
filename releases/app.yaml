@@ -6,8 +6,8 @@ metadata:
 spec:
   releaseName: arc-k8s-demo
   chart:
-    git: https://github.com/Azure/arc-helm-demo
+    git: https://github.com/Azure-Samples/helm-charts
     ref: master
-    path: charts/azure-arc-sample
+    path: chart-source/aks-helloworld
   values:
     serviceName: arc-k8s-demo
